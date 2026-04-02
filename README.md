@@ -1,6 +1,6 @@
 # saas-toolkit
 
-A Claude Code plugin with everything you need to build, launch, and grow a SaaS product. 15 skills and a SaaS mentor agent covering your full stack - from bootstrapping to launch day.
+A Claude Code plugin with everything you need to build, launch, and grow a SaaS product. 15 skills and 4 agents covering your full stack - from spec to launch day.
 
 **By [Daniel Goldman](https://danielthegoldman.com)**
 
@@ -40,9 +40,14 @@ Then select and install the plugin from the marketplace. Restart Claude Code to 
 | `/deploy` | Deploy to Vercel - pre-flight build checks, GitHub repo, env vars, custom domain, rollback |
 | `/launch-checklist` | 100+ item pre-launch checklist across code, database, auth, payments, SEO, security, analytics |
 
-### Agent
+### Agents
 
-**saas-mentor** - A SaaS development mentor that knows the full stack. Ask it about architecture decisions, what to build next, how to validate ideas, or when to launch. It will point you to the right skill when relevant.
+| Agent | What it does |
+|-------|-------------|
+| **saas-mentor** | SaaS development mentor - architecture decisions, idea validation, what to build next |
+| **prd-writer** | Takes a feature idea, explores your codebase, interviews you, and outputs a structured PRD with user stories, data model, API design, and acceptance criteria |
+| **saas-reviewer** | Read-only code review for SaaS - checks auth gaps, RLS policies, billing logic, webhook security. Two-stage: spec compliance then code quality. Verdicts: APPROVE / BLOCK |
+| **qa-tester** | Generates test plans for SaaS-critical flows (auth, billing, subscriptions, feature gating) and writes Playwright/Vitest tests |
 
 ## Tech Stack
 
@@ -81,6 +86,8 @@ claude plugin install frontend-design@claude-plugins-official
 ```
   Validate idea
        |
+    prd-writer -------> Spec the feature
+       |
     /setup -----------> Bootstrap project
        |
     /auth ------------> Set up authentication
@@ -98,6 +105,10 @@ claude plugin install frontend-design@claude-plugins-official
     /analytics -------> Track everything
        |
     /secure ----------> Audit security
+       |
+    saas-reviewer ----> Review the code
+       |
+    qa-tester --------> Test critical flows
        |
     /landing-page ----> Build your marketing page
        |
