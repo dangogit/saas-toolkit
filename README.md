@@ -8,7 +8,7 @@ A Claude Code plugin with everything you need to build, launch, and grow a SaaS 
 
 ```bash
 # Inside Claude Code
-/plugin marketplace add danielgoldman/saas-toolkit
+/plugin marketplace add dangogit/saas-toolkit
 ```
 
 Then select and install the plugin from the marketplace. Restart Claude Code to activate.
