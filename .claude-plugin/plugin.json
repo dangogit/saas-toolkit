@@ -1,0 +1,27 @@
+{
+  "name": "saas-toolkit",
+  "version": "1.0.0",
+  "description": "The complete Claude Code toolkit for SaaS founders. Ship faster with skills for Next.js, Supabase, Vercel, PostHog, landing pages, SEO, branding, and launch readiness.",
+  "author": {
+    "name": "Daniel Goldman",
+    "url": "https://danielthegoldman.com"
+  },
+  "homepage": "https://danielthegoldman.com/saas-toolkit",
+  "repository": "https://github.com/danielgoldman/saas-toolkit",
+  "license": "MIT",
+  "keywords": [
+    "saas",
+    "nextjs",
+    "supabase",
+    "vercel",
+    "posthog",
+    "landing-page",
+    "seo",
+    "deployment",
+    "full-stack",
+    "entrepreneur"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "hooks": "./hooks/hooks.json"
+}

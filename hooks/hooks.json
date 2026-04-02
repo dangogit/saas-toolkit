@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "echo 'saas-toolkit: /setup /deploy /database /analytics /secure /api-integration /ai-integration /landing-page /seo /brand-kit /content-writer /responsive-ui /launch-checklist | Agent: saas-mentor'"
+      }
+    ]
+  }
+}
