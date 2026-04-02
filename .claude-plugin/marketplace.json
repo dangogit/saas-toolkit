@@ -11,7 +11,7 @@
     {
       "name": "saas-toolkit",
       "source": "./",
-      "description": "Full-stack SaaS development and launch toolkit with 13 skills and a SaaS mentor agent. Covers Next.js, Supabase, Vercel, PostHog, Polar.sh, AI, SEO, landing pages, and launch readiness.",
+      "description": "Full-stack SaaS development and launch toolkit with 15 skills and a SaaS mentor agent. Covers Next.js, Supabase Auth, Vercel, PostHog, Polar.sh billing, Vercel AI SDK, SEO, landing pages, and launch readiness.",
       "version": "1.0.0",
       "author": {
         "name": "Daniel Goldman"

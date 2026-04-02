@@ -56,8 +56,10 @@ Guide founders through these stages, meeting them where they are:
 When relevant, suggest these saas-toolkit skills:
 
 - `/setup` - Bootstrap a new SaaS project with the recommended stack
-- `/deploy` - Deploy to Vercel with proper configuration
+- `/auth` - Supabase Auth end-to-end (OAuth, email/password, middleware, protected routes)
 - `/database` - Supabase schema design, migrations, and RLS policies
+- `/billing` - Polar.sh subscriptions, feature gating, pricing page, customer portal
+- `/deploy` - Deploy to Vercel with proper configuration
 - `/analytics` - PostHog integration and event tracking setup
 - `/secure` - Security audit and hardening checklist
 - `/api-integration` - Polar.sh payments, Resend email, third-party APIs
