@@ -6,12 +6,25 @@ A Claude Code plugin with everything you need to build, launch, and grow a SaaS 
 
 ## Quick Start
 
+### Install from GitHub (recommended)
+
 ```bash
-# Inside Claude Code
-/plugin marketplace add dangogit/saas-toolkit
+claude plugin add dangogit/saas-toolkit
 ```
 
-Then select and install the plugin from the marketplace. Restart Claude Code to activate.
+This installs directly from the GitHub repo - works right away.
+
+### Install from Marketplace
+
+```bash
+claude plugin add dangogit/saas-toolkit
+```
+
+If the plugin is listed on the Claude Code marketplace, you can also browse and install it there. Marketplace approval may still be pending - use the GitHub method above if it's not available yet.
+
+---
+
+Restart Claude Code after installing to activate all skills and agents.
 
 ## Skills
 
